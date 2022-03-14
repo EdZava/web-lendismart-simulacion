@@ -13,3 +13,13 @@ lsSDK.Widgets.openCreditSimulator(cfg);
 <p align="center">
   <img width="900" align="center" src="./resources/sample.png" alt="demo"/>
 </p>
+
+## Author
+
+👤 **Zava**
+
+* Twitter: [@ZavaDev](https://twitter.com/ZavaDev)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
