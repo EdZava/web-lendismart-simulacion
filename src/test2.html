@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulación Financiación</title>
+
+  <script src="js/main.js"></script>
+  <script src="https://cdn.lendismart.com/sdk/staging/v1/api.js" defer></script>
+
+  <script>
+    window.onLendismartSdkReady = function (lsSDK) {
+      var configLendismart = ConfigLendismart();
+
+      // Setup Lendismart sdk manual
+      lsSDK.Widgets.config(configLendismart.Sdk);
+
+      // declare method
+      function handleOpenSimulator() {
+        lsSDK.Widgets.openCreditSimulator(configLendismart.OpenSimulator);
+      };
+
+      // find and bind event manual
+      const btnSimular = document.getElementById("btn-simular");
+      btnSimular.onclick = handleOpenSimulator;
+    };
+  </script>
+
+</head>
+
+<body>
+  <div hidden>made in zava</div>
+  <h1>Simulación Financiación</h1>
+
+  <button id="btn-simular">Simular Financiación(manual)</button>
+</body>
+
+</html>

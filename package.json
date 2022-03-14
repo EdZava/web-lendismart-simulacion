@@ -1,0 +1,24 @@
+{
+  "name": "lendismart-simulacion",
+  "version": "1.0.0",
+  "description": "web lendismart simulacion financiamiento gesden",
+  "main": "./src/index.html",
+  "scripts": {
+    "build-clean-dir": "rimraf ./build",
+    "build-create-dir": "mkdirp build/lendismart-simulacion && mkdirp build/lendismart-simulacion/js",
+    "build-create-index": "cp src/test4.html src/index.html",
+    "build-copy-html": "cp src/index.html build/lendismart-simulacion/index.html",
+    "build-copy-js": "cp src/js/*.js build/lendismart-simulacion/js",
+    "build": "npm run build-clean-dir && npm run build-create-dir && npm run build-create-index && npm run build-copy-html && npm run build-copy-js",
+    "serve": "serve ./src",
+    "start": "npm run build && npm run serve"
+  },
+  "author": "Zava",
+  "license": "ISC",
+  "devDependencies": {
+    "cp": "^0.2.0",
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2",
+    "serve": "^13.0.2"
+  }
+}
