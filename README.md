@@ -14,6 +14,19 @@ lsSDK.Widgets.openCreditSimulator(cfg);
   <img width="900" align="center" src="./resources/sample.png" alt="demo"/>
 </p>
 
+## ⚡️ Quickstart
+
+Build and start project in  http://localhost:3000 
+
+```cmd
+npm run start
+```
+
+Build and generate dist files in ./Build/lendismart-simulacion 
+```cmd
+npm run build
+```
+
 ## Author
 
 👤 **Zava**
