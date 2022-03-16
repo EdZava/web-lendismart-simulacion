@@ -1,31 +1,59 @@
-# web-lendismart-simulacion
+# 🖥 Lendismart Web Example Integration SDK JS
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/efb19ecb-44dd-4d33-9375-84c5f93bb58d/deploy-status)](https://app.netlify.com/sites/web-lendismart-simulacion/deploys)
+This is a simple example of how to integrate quickly and safely for Lendismart, S.L.
 
-web simulación financiación de Lendismart.
+In this example the objective is to give a quick guide on how to integrate with the JS SDK and open the credit simulation.
 
-Proyecto con el objetivo de ejemplificar como se puede abrir la simulación de financiación de Lendismart.
+This project has a requirement to support IE11 😢.
+
+**Method**
 
 ```javascript
 lsSDK.Widgets.openCreditSimulator(cfg);
 ```
+## 📖 Example
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/efb19ecb-44dd-4d33-9375-84c5f93bb58d/deploy-status)](https://app.netlify.com/sites/web-lendismart-simulacion/deploys)
 
 <p align="center">
   <img width="900" align="center" src="./resources/sample.png" alt="demo"/>
 </p>
 
-## ⚡️ Quickstart
+## ⚡️ Quickstart 
 
-Build and start project in  http://localhost:3000 
+Download the project enter the project folder and run:
 
-```cmd
+```bash
+npm install
+```
+
+Start the project at `http://localhost:3000` run:
+
+```bash
 npm run start
 ```
 
-Build and generate dist files in ./Build/lendismart-simulacion 
-```cmd
+Create and generate the **Dist** files in `./Build/lendismart-simulacion` run:
+
+```bash
 npm run build
 ```
+
+## 📚 Documentation by Lendismart
+
+Lendismart SDK JS 
+
+**Installation**
+
+https://docs.lendismart.com/docs/sdk/installation
+
+**Setting**
+
+https://docs.lendismart.com/docs/sdk/api/config
+
+**Method open credit simulator**
+
+https://docs.lendismart.com/docs/sdk/api/openCreditSimulator
 
 ## Author
 
