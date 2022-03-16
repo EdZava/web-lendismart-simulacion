@@ -6,11 +6,6 @@ In this example the objective is to give a quick guide on how to integrate with 
 
 This project has a requirement to support IE11 😢.
 
-**Method**
-
-```javascript
-lsSDK.Widgets.openCreditSimulator(cfg);
-```
 ## 📖 Example
 
 https://web-lendismart-simulacion.netlify.app/
@@ -57,6 +52,11 @@ https://docs.lendismart.com/docs/sdk/api/config
 **Method open credit simulator**
 
 https://docs.lendismart.com/docs/sdk/api/openCreditSimulator
+
+```javascript
+lsSDK.Widgets.openCreditSimulator(cfg);
+```
+
 
 ## Author
 
