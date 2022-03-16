@@ -1,4 +1,4 @@
-# 🖥 Lendismart Web Example Integration SDK JS
+# 🖥 Lendismart Web Integration SDK JS
 
 This is a simple example of how to integrate quickly and safely for Lendismart, S.L.
 
